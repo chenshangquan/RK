@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="280,270" roundcorner="5,5" caption="0,0,0,26">
+  <Font name="宋体" size="15" bold="false"></Font>
+  <VerticalLayout bordersize="1" bordercolor="#88336666" borderround="5,5" name="AbnormalWindow" inset="1,1,1,1">
+    <HorizontalLayout bkcolor="#55123456" bkimage="skinres/bkimage.png" height="26">
+      <Label text="异常处理选择" font="0" padding="7" textcolor="#FFFFFFFF" />
+    </HorizontalLayout>
+    <Container bkcolor="#FFDCDCDC" bordersize="0">
+      <Button float="true" text="中止测试" font="0" name="BtnStop" pos="70,38,210,67" focusedimage="skinres/btn_focus.png" pushedimage="SkinRes/btn_down.png" hotimage="SkinRes/btn_highlight.png" normalimage="SkinRes/btn_normal.png" />
+      <Button float="true" font="0" text="重新测试" name="BtnRetest" pos="70,98,210,127" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" />
+      <Button float="true" text="继续测试" font="0" name="BtnContinue" pos="70,158,210,187" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" />
+    </Container>
+  </VerticalLayout>
+</Window>

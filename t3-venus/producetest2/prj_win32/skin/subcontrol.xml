@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<subcontrol>
+  <MtItem>
+    <HorizontalLayout width="260" height="64" padding="0,20,0,0">
+      <Button name="Local" text="haha" showhtml="true" width="210" height="64" textpadding="40,0,0,0" normalimage="file='MtLocal/Normal.png'" pushedimage="file='MtLocal/Sel.png'" disableimage="file='MtLocal/Disable.png'" />
+      <Button name="LocalBig" text="haha" showhtml="true" width="260" height="64" textpadding="40,0,0,0" normalimage="file='GeneralBigBtn/Normal.png'" pushedimage="file='GeneralBigBtn/Sel.png'" disableimage="file='GeneralBigBtn/Disable.png'" />
+      <Button name="Item" text="haha" showhtml="true" width="210" height="64" textpadding="40,0,0,0" normalimage="file='Item/Normal.png'" pushedimage="file='Item/Sel.png'" disableimage="file='Item/Disable.png'" />
+      <Button name="ItemBig" text="haha" showhtml="true" width="260" height="64" textpadding="40,0,0,0" normalimage="file='MtBtn/Normal.png'" pushedimage="file='MtBtn/Sel.png'" disableimage="file='MtBtn/Disable.png'" />
+      <Button name="Group" text="haha" showhtml="true" width="210" height="64" textpadding="40,0,0,0" normalimage="file='Group/Normal.png'" pushedimage="file='Group/Sel.png'" disableimage="file='Group/Disable.png'" />
+      <Button name="StartDispatch" width="50" height="64" normalimage="file='SelLook/Normal.png'" pushedimage="file='SelLook/Sel.png'" disableimage="file='SelLook/Disable.png'" />
+      <Button name="StopDispatch" width="50" height="64" normalimage="file='CancelLook/Normal.png'" pushedimage="file='CancelLook/Sel.png'" disableimage="file='CancelLook/Disable.png'" />
+      <Button name="CallMt" width="50" height="64" normalimage="file='Call/Normal.png'" pushedimage="file='Call/Sel.png'" disableimage="file='Call/Disable.png'" />
+      <Button name="BreakDispatch" width="50" height="64" normalimage="file='Disconnect/Normal.png'" pushedimage="file='Disconnect/Sel.png'" disableimage="file='Disconnect/Disable.png'" />
+      <Button name="AddToGroupDispatch" width="50" height="64" normalimage="file='SelLook/Normal.png'" pushedimage="file='SelLook/Sel.png'" disableimage="file='SelLook/Disable.png'" />
+      <Button name="RemoveFromGroupDispatch" width="50" height="64" normalimage="file='CancelLook/Normal.png'" pushedimage="file='CancelLook/Sel.png'" disableimage="file='CancelLook/Disable.png'" />
+      <Button name="StartReport" width="50" height="64" normalimage="file='SelLook/Normal.png'" pushedimage="file='SelLook/Sel.png'" disableimage="file='SelLook/Disable.png'" />
+      <Button name="StopReport" width="50" height="64" normalimage="file='CancelLook/Normal.png'" pushedimage="file='CancelLook/Sel.png'" disableimage="file='CancelLook/Disable.png'" />
+      <Button name="DropMt" width="50" height="64" normalimage="file='HangUp/Normal.png'" pushedimage="file='HangUp/Sel.png'" disableimage="file='HangUp/Disable.png'" />
+      <Button name="CancelSpeaker" width="50" height="64" normalimage="file='CancelSpeak/Normal.png'" pushedimage="file='CancelSpeak/Sel.png'" disableimage="file='CancelSpeak/Disable.png'" />
+      <Button name="ChangeSpeaker" width="50" height="64" normalimage="file='SelSpeaker/Normal.png'" pushedimage="file='SelSpeaker/Sel.png'" disableimage="file='SelSpeaker/Disable.png'" />
+      <Button name="ChangeChairman" width="50" height="64" normalimage="file='SelChairman/Normal.png'" pushedimage="file='SelChairman/Sel.png'" disableimage="file='SelChairman/Disable.png'" />
+      <Button name="SetMtToTw" width="50" height="64" normalimage="file='SelToTvWall/Normal.png'" pushedimage="file='SelToTvWall/Sel.png'" disableimage="file='SelToTvWall/Disable.png'" />
+      <Button name="StartTransit" width="50" height="64" normalimage="file='SelTransit/Normal.png'" pushedimage="file='SelTransit/Sel.png'" disableimage="file='SelTransit/Disable.png'" />
+    </HorizontalLayout>
+  </MtItem>
+  <test>
+    <ListContainerElement height="30" bordercolor="#FF0000000">
+      <VerticalLayout>
+        <HorizontalLayout height="30">
+          <Option bordercolor="#FF000000" name="OptRestore" width="12" padding="3,9,0,5" height="12" />
+          <Label text="&gt;" padding="5,0,5,0" width="8" />
+          <Label name="LabelCaseName" text="测试项1" />
+          <Button padding="5,5,5,5" text="设置" bordercolor="#FF000000" visible="false" width="35" />
+        </HorizontalLayout>
+        <HorizontalLayout height="70" visible="false">
+          <RichEdit name="REditCaseDiscription" multiline="true" padding="20" readonly="true" text="描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息" />
+        </HorizontalLayout>
+      </VerticalLayout>
+    </ListContainerElement>
+  </test>
+  <ComboItem>
+    <ListLabelElement name="ComboItem"></ListLabelElement>
+  </ComboItem>
+  <CaseListItem>
+    <ListContainerElement height="30" bordercolor="#FF0000000">
+      <VerticalLayout>
+        <HorizontalLayout height="40">
+          <Option name="OptAdded" bordercolor="#00000000" selectedimage="SkinRes/checkbox_selected.png" disabledimage="SkinRes/checkbox_disable.png" normalimage="SkinRes/checkbox_normal.png" hotimage="SkinRes/checkbox_hightlight.png" width="14" enabled="false" padding="3,9,0,5" height="14" />
+          <Label text="&gt;" padding="5,0,0,0" width="8" />
+          <RichEdit name="LabelCaseName" text="测试项1" width="158" multiline="true" mouse="false" />
+          <Container>
+            <Label name="LabelState" pos="2,5,78,25" float="true" visible="false" text="准备" align="left" ></Label>
+            <Button text="设置" name="BtnConfig" pos="10,5,88,25" float="true" visible="false" width="35" focusedimage="skinres/btn_focus.png" pushedimage="SkinRes/btn_down.png" hotimage="SkinRes/btn_highlight.png" normalimage="SkinRes/btn_normal.png" />
+          </Container>
+        </HorizontalLayout>
+        <HorizontalLayout height="70" name="LayoutInfo" visible="false">
+          <RichEdit name="REditCaseDiscription" multiline="true" font="4" padding="20" mouse="false" readonly="true" text="描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息" />
+        </HorizontalLayout>
+      </VerticalLayout>
+    </ListContainerElement>
+  </CaseListItem>
+  <SuperTerminal>
+    <VerticalLayout name="PageST" bordercolor="#00FFFFFF">
+      <HorizontalLayout height="20" bkimage="skinres/tips.png">
+        <Button name="BtnShowST" height="20" width="20" tooltip="收起/展开超级终端" text="↖" hotimage="SkinRes/allbtn_highlight.png" pushedimage="SkinRes/allbtn_down.png"></Button>
+        <Label text="超级终端" width="100" />
+        <Combo width="60" textpadding="3" name="CbComPort" normalimage="file='skinres/down.png' dest='49,5,59,17'" pushedimage="skinres/allbtn_down.png" itemalign="center"></Combo>
+      </HorizontalLayout>
+      <RichEdit multiline="true" autovscroll="true" vscrollbar="true" inset="3,1" menu="true" textcolor="#FFEEEEEE" readonly="true" name="REditST" font="1" bkcolor="#FF000000" />
+    </VerticalLayout>
+  </SuperTerminal>
+</subcontrol>

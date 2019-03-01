@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,550">
+  <VerticalLayout name="PageNormalMode" bkcolor="#FFC0C0C0">
+    <Control />
+    <HorizontalLayout height="550">
+      <Control />
+      <Container width="800">
+        <Button float="true" font="0" name="BtnLoad" pos="230,182,360,268" text="加载" pushedimage="skinres/big_btn_down.png" normalimage="skinres/big_btn_normal.png" />
+        <Button float="true" name="BtnTest" font="0" pos="440,182,570,268" text="测试" pushedimage="skinres/big_btn_down.png" normalimage="skinres/big_btn_normal.png" />
+      </Container>
+      <Control />
+    </HorizontalLayout>
+    <Control />
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<case>
+  <case1 type="media" Name="码流测试1" Description="发送20路码流" Path="C:\media">
+    <EncoderNetParam VidLocalRTPPortStart="1" VidLocalInterval="2" VidRemoteRTPPortStart="3" VidRemoteInterval="4" AudLocalRTPPortStart="5" AudLocalInterval="6" AudRemoteRTPPortStart="7" AudRemoteInterval="8" />
+    <StreamIn VidCount="2" AudCount="1" AudRTPPort="3" VidRTPPort="2" KeyFrameMsg="2"></StreamIn>
+    <StreamOut>
+      <Group file="1.asf" AudCount="5" VidCount="0"></Group>
+      <Group file="2.asf" AudCount="5" VidCount="0"></Group>
+    </StreamOut>
+    <PreMsg></PreMsg>
+    <EndMsg></EndMsg>
+  </case1>
+  <case2 type="exe" Name="网口测试11" Description="pingXXX板卡网口" ExeString="ping 10.1.1.2" />
+  <case3 type="cmd" Name="指示灯测试11" Description="XXXX指示灯亮起" CmdMsgId="335"></case3>
+  <case4 type="exe" Name="网口测试12" Description="ping网口" ExeString="ping 172.16.80.69" />
+</case>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="270,550">
+  <ListContainerElement height="30" bordercolor="#FF0000000">
+    <VerticalLayout>
+      <HorizontalLayout height="30">
+        <Option bordercolor="#FF000000" name="OptCaseCheck" width="12" padding="3,9,0,5" height="12" />
+        <Label text="&gt;" name="LabelExpand" padding="5,0,5,0" width="8" />
+        <Label name="LabelCaseName" text="测试项1" />
+        <Button padding="5,5,5,5" text="设置" name="BtnCaseCfg" visible="fasle" bordercolor="#FF000000" width="35" />
+      </HorizontalLayout>
+      <HorizontalLayout height="50">
+        <RichEdit name="REditCaseDiscription" multiline="true" padding="20" readonly="true" text="描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息" />
+      </HorizontalLayout>
+    </VerticalLayout>
+  </ListContainerElement>
+</Window>

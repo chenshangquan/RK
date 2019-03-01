@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="400,180" roundcorner="5,5" caption="0,0,0,26" mininfo="400,180" maxinfo="400,180">
+  <Font name="微软雅黑" size="15" bold="false"></Font>
+  <Font name="微软雅黑" default="true" size="12" bold="false"></Font>
+  <VerticalLayout bordersize="1" inset="1,1,1,1" name="CaseCfgDlg" borderround="5,5" bordercolor="#88336666">
+    <HorizontalLayout height="26" bkimage="skinres/bkimage.png">
+      <Label text="测试项设置" font="0" padding="7" textcolor="#FFffffff" />
+    </HorizontalLayout>
+    <Container bkcolor="#FFDCDCDC" bordersize="0">
+      <Label text="媒体路径" pos="50,43,110,63" float="true" />
+      <Edit float="true" bordercolor="#FFFFFFFF" text="C:\" name="EditFilePath" pos="110,41,330,65" />
+      <Button float="true" text="..." normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" name="BtnBrowse" pos="335,41,360,65" />
+      <Button float="true" text="确定" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" name="BtnOk" pos="120,98,175,120" />
+      <Button float="true" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" text="取消" name="BtnCancel" pos="225,98,280,120" />
+    </Container>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<case>
+  <case11 type="exe" Name="网口测试1" Description="网口测试" ExeString="ping 172.16.80.69" />
+  <case12 type="exe" Name="网口测试2" Description="网口测试" ExeString="ping 172.16.80.69" />
+  <case13 type="cmd" Name="指示灯测试1" Description="xxxx指示灯亮起" CmdMsgId="12333" />
+  <case14 type="exe" Name="网口测试3" Description="网口测试" ExeString="ping 172.16.80.69" />
+</case>

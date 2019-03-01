@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="530,550" caption="0,0,0,26">
+  <VerticalLayout bordersize="1" bkcolor="#FFDCDCDC" bordercolor="#FF768D9B">
+    <VerticalLayout padding="40,20,0,8" height="104">
+      <HorizontalLayout height="28">
+        <Label text="设备序列号" width="80" textpading="0,5,5,5" />
+        <Edit padding="0,3,20,3" width="200" bkimage="skinres/textbox.png" textpadding="7" nativebkcolor="#ffdce6f2" multiline="false" name="EditBrdSerial" maxchar ="10" />
+        <Control />
+      </HorizontalLayout>
+      <HorizontalLayout height="26">
+        <Label text="IP地址" width="80" textpading="0,5,5,5" />
+        <Label textpading="5,5,5,5" name="LabelLoadIp" />
+      </HorizontalLayout>
+      <HorizontalLayout height="26">
+        <Label text="MAC地址" width="80" textpading="0,5,5,5" />
+        <Label textpading="5,5,5,5" name="LabelLoadMac" />
+      </HorizontalLayout>
+      <HorizontalLayout height="26">
+        <Label text="生产日期" width="80" textpading="0,5,5,5" />
+        <Label name="LabelLoadDate" textpading="5,5,5,5" />
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout padding="40,0,40">
+      <Container bkcolor="#55F3A2F4" name="CntrLoadDvcPic"></Container>
+      <HorizontalLayout height="30">
+        <Container float="true" pos="0,5,447,30" relativepos="50,0,0,0" name="LoadResult"></Container>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <Container height="50" padding="40,10,40">
+      <VerticalLayout float="true" pos="0,0,447,50">
+        <HorizontalLayout height="25">
+          <Label text="当前状态" width="80" />
+          <Label name="LabelLoadState" text="等待设备连接"></Label>
+        </HorizontalLayout>
+        <HorizontalLayout height="25">
+          <Label text="当前进度" width="80" />
+          <Progress padding="0,4,20,0" bordercolor="#00FFFFFF" borderround="2,2" bkimage="skinres/progressbk.jpg" name="ProgressLoad" fgimage="skinres/progressfo.png" bordersize="1,1,1,1" max="100" value="20" />
+        </HorizontalLayout>
+      </VerticalLayout>
+    </Container>
+  </VerticalLayout>
+</Window>

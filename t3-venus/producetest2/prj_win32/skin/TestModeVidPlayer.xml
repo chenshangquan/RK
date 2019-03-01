@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="413,284">
+  <Container bordercolor="#FFFFFFFF" inset="2,2,2,2" name="VidPlayer" bktrans="true" roundcorner="2,2,2,2" />
+</Window>

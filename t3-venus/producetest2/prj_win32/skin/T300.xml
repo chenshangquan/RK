@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<board PipeLine="1" Name="T300E" SysFile="T300E.bin" E2promFlag="6" EthernetCount="2" E2promInfo="3" BrdPic="file='\brdpic\hdu.bmp' dest='0,20,264,20'" Pid="1159" Hid="533" AppId="AID_PRODUCETEST_APP">
+  <RegMsg ReqMsgId="ev_CNPRODUCETESTLOGIN_REQ" AckMsgId="ev_CNPRODUCETESTLOGIN_ACK" NackMsgId="ev_CNPRODUCETESTLOGIN_NACK"></RegMsg>
+  <Mode>
+    <Mode1 Id="0" Description="T300E测试模式" TestCase="T300case1|T300case2|T300case3|T300case4|T300case5|T300case6|T300case7|T300case8|T300case9|T300case10|T300case11|T300case12|T300case13|T300case14|T300case15|T300case16|T300case17|T300case18|T300case19|T300case20|T300case21|T300case22|T300case23|T300case24|T300case25|T300case26|T300case27|T300case28|T300case29|T300case30|T300case31|T300case32|T300case33|T300case34|T300case35|T300case36|T300case37|T300case38|T300case39|T300case40|T300case41|T300case42|T300case43|T300case44|T300case45|T300case46|T300case47|T300case48|T300case49|T300case50|T300case51|T300case52|T300case53|T300case54|T300case55|T300case56|T300case57|T300case58|T300case59|T300case60|T300case61|T300case62|T300case63|T300case64|T300case65|T300case66|T300case67|T300case68|T300case69|T300case70|T300case71|T300case72|T300case73">
+      <PreMsg></PreMsg>
+
+      <ResMsg>
+          
+        <Msg type="Out" MsgId="ev_CNPRODUCETESTDEFAULT_CMD" Description="ev_CNPRODUCETESTDEFAULT_CMD T300恢复出厂设置">
+          <MsgBody></MsgBody>
+        </Msg>
+<!--
+        <Msg type="In" MsgId="ev_CNPRODUCETESTDEFAULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY T300恢复出厂设置结果">
+          <MsgBody></MsgBody>
+        </Msg>
+-->
+      </ResMsg>
+
+      <EndMsg></EndMsg>
+    </Mode1>
+  </Mode>
+</board>

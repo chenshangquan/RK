@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: producetest2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/resource.res" /d "_DEBUG" /d "_AFXDLL" "F:\Projects_Git\t3-venus\t3-venus\producetest2\prj_win32\resource.rc"" 
+Creating temporary file "C:\Users\csquan\AppData\Local\Temp\RSPE9D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/producetest2.pdb" /map:"Debug/producetest2.map" /debug /machine:I386 /nodefaultlib:"nafxcwd.lib" /nodefaultlib:"libcmtd.lib" /nodefaultlib:"LIBCD.lib" /nodefaultlib:"LIBCMT.lib" /nodefaultlib:"LIBC.lib" /nodefaultlib:"MSVCRT.lib" /out:"Debug/producetest2.exe" /pdbtype:sept /libpath:"..\..\..\10-common\lib\debug\win32" /libpath:"..\..\common\include\platform sdk\LIB" 
+".\Debug\main.obj"
+".\Debug\StdAfx.obj"
+".\Debug\System.obj"
+".\Debug\ICommonOp.obj"
+".\Debug\InterfaceDef.obj"
+".\Debug\WndObserver.obj"
+".\Debug\DocManager.obj"
+".\Debug\Logger.obj"
+".\Debug\MacroMngr.obj"
+".\Debug\AbnormalLogic.obj"
+".\Debug\CaseCfgLogic.obj"
+".\Debug\ChooseDlgLogic.obj"
+".\Debug\LoadLogic.obj"
+".\Debug\MainLogic.obj"
+".\Debug\NormalLogic.obj"
+".\Debug\NotifyDlgLogic.obj"
+".\Debug\PlayerLogic.obj"
+".\Debug\SuperTerminalLogic.obj"
+".\Debug\TestLogic.obj"
+".\Debug\LogicManager.obj"
+".\Debug\MsgManager.obj"
+".\Debug\UserDataManager.obj"
+".\Debug\WindowManager.obj"
+".\Debug\Board.obj"
+".\Debug\Device.obj"
+".\Debug\MsgQueMngr.obj"
+".\Debug\TestCase.obj"
+".\Debug\TestCaseContainer.obj"
+".\Debug\BoardFactory.obj"
+".\Debug\ControlFactory.obj"
+".\Debug\DeviceFactory.obj"
+".\Debug\MsgQueFactory.obj"
+".\Debug\TestCaseFactory.obj"
+".\Debug\OspAppManager.obj"
+".\Debug\OspInstance.obj"
+".\Debug\OspSession.obj"
+".\Debug\OspSessionMngr.obj"
+".\Debug\LoadInfoMngr.obj"
+".\Debug\Udp.obj"
+".\Debug\UdpSession.obj"
+".\Debug\CComm.obj"
+".\Debug\Tftp.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\Users\csquan\AppData\Local\Temp\RSPE9D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+   Creating library Debug/producetest2.lib and object Debug/producetest2.exp
+
+
+
+<h3>Results</h3>
+producetest2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="270,550" caption="0,0,0,26">
+  <VerticalLayout bordercolor="#FF768D9B" width="270" bkcolor="#FFDCDCDC">
+    <HorizontalLayout height="20" attribute="" bkcolor="#55123456">
+      <Label text="板卡配置" textpadding="12,3" />
+    </HorizontalLayout>
+    <VerticalLayout inset="12,15,10">
+      <HorizontalLayout inset="0,5,0,5" height="36">
+        <Label text="产品型号" textpadding="0,5" width="80" />
+        <Combo bkcolor="#FFFFFFFF" tooltip="选择设备" name="CbLoadDvc" itemtextpadding="5,0,0,0" attribute="" normalimage="file='skinres/login_inputbtn_normal.png' dest='148,0,170,35'" hotimage="file='skinres/login_inputbtn_highlight.png' dest='148,0,170,35'" pushedimage="file='skinres/login_inputbtn_down.png' dest='148,0,170,35'"></Combo>
+      </HorizontalLayout>
+      <HorizontalLayout height="35" inset="0,5,0,5">
+        <Label text="PID" textpadding="0,5" width="80" />
+        <Label text="" name="LabelPid" textpadding="0,5"></Label>
+      </HorizontalLayout>
+      <HorizontalLayout height="35" inset="0,5,0,5">
+        <Label text="HID" width="80" textpadding="0,5" />
+        <Label text="" name="LabelHid" textpadding="0,5" />
+      </HorizontalLayout>
+      <HorizontalLayout height="35" inset="0,5,0,5">
+        <Label text="硬件版本" width="80" textpadding="0,5" />
+        <Edit name="REditHw" tooltip="硬件版本 格式如x.xx" wanttab="false" numberonly="true" text="1.11"  nativebkcolor="#ffdce6f2" font="0" inset="7,5" maxchar="6" multiline="false" bkimage="skinres/textbox.png" textcolor="#FF000000" />
+      </HorizontalLayout>
+      <HorizontalLayout height="35" inset="0,5,0,5">
+        <Label text="起始IP" textpadding="0,5" width="80" />
+        <Edit name="REditStartIp" multiline="false" font="0" wanttab="false" maxchar="15" textcolor="#FF000000" nativebkcolor="#ffdce6f2" bkimage="skinres/textbox.png" inset="7,5" tooltip="格式10.1.1.x" text="10.1.1.2" />
+      </HorizontalLayout>
+      <HorizontalLayout height="35" inset="0,5,0,5">
+        <Label text="起始MAC" textpadding="0,5" width="80" />
+        <Edit font="0" multiline="false" name="REditStartMac" maxchar="17" wanttab="false" nativebkcolor="#ffdce6f2" textcolor="#FF000000" bkimage="skinres/textbox.png" inset="7,5" tooltip="如00:1f:3c:13:c1:1f" attribute="" text="00:1f:3c:13:c1:1f" />
+      </HorizontalLayout>
+      <HorizontalLayout height="35" inset="0,5,0,5">
+        <Label text="加载文件路径" textpadding="0,5" width="80" />
+        <Edit font="0" name="REditTftpPath" multiline="false" text="C:\" autohscroll="true" nativebkcolor="#ffdce6f2" rich="false" wanttab="false" textcolor="#FF000000" bkimage="skinres/textbox.png" inset="7,5" />
+        <Button text="..." padding="4" name="BtnBrowsePath" width="25" focusedimage="skinres/btn_focus.png" pushedimage="SkinRes/btn_down.png" hotimage="SkinRes/btn_highlight.png" normalimage="SkinRes/btn_normal.png" />
+      </HorizontalLayout>
+    </VerticalLayout>
+    <HorizontalLayout height="60">
+      <Button pos="60,18,125,42" name="BtnSaveEdit" text="保存" float="true" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" />
+      <Button pos="145,18,210,42" name="BtnCancelEdit" text="取消" float="true" focusedimage="skinres/btn_focus.png" pushedimage="SkinRes/btn_down.png" hotimage="SkinRes/btn_highlight.png" normalimage="SkinRes/btn_normal.png" />
+      <Button pos="102,18,167,42" name="BtnChangeEdit" visible="false" text="修改" float="true" focusedimage="skinres/btn_focus.png" pushedimage="SkinRes/btn_down.png" hotimage="SkinRes/btn_highlight.png" normalimage="SkinRes/btn_normal.png" />
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

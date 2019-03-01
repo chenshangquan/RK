@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="270,550" caption="0,0,0,26">
+  <VerticalLayout bordersize="1" bordercolor="#FF768D9B" inset="1,1,1,1" width="270" bkcolor="#55C0C0C0">
+    <HorizontalLayout height="20" bkcolor="#55123456">
+      <Label text="测试项列表" textpadding="3" width="118" />
+      <Option name="OptSelectAll" enabled="false" width="15" hotimage="SkinRes/checkbox_hightlight.png" bordercolor="#00000000" normalimage="SkinRes/checkbox_normal.png" disabledimage="SkinRes/checkbox_disable.png" selected="false" selectedimage="SkinRes/checkbox_selected.png" padding="0,4,0,5" height="15"></Option>
+      <Label text="全选" textpadding="3" width="42" />
+      <Option bordercolor="#00000000" name="OptRestore" selected="false" enabled="false" hotimage="SkinRes/checkbox_hightlight.png" normalimage="SkinRes/checkbox_normal.png" disabledimage="SkinRes/checkbox_disable.png" width="15" selectedimage="SkinRes/checkbox_selected.png" padding="0,4,0,5" height="15" />
+      <Label text="恢复出厂设置" textpadding="3" />
+    </HorizontalLayout>
+    <HorizontalLayout bkcolor="#FF748966" height="36">
+      <Label text="产品型号" width="75" textpadding="15" />
+      <Combo bkcolor="#FFFFFFFF" itemtextpadding="5,0,0,0" textcolor="#FF000000" tooltip="选择设备" name="CbDvcType" padding="10,5,10,5" normalimage="file='skinres/login_inputbtn_normal.png' dest='145,0,170,35'" hotimage="file='skinres/login_inputbtn_highlight.png' dest='145,0,170,35'" pushedimage="file='skinres/login_inputbtn_down.png' dest='145,0,170,35'" />
+    </HorizontalLayout>
+    <List bkcolor="#FFDCDCDC" name="LstTestCase" header="hidden" vscrollbar="true" inset="2,0,2,0"></List>
+  </VerticalLayout>
+</Window>

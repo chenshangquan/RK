@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="530,550" caption="0,0,0,26">
+  <VerticalLayout bordersize="1" bordercolor="#FF768D9B" bkcolor="#FFDCDCDC">
+    <VerticalLayout padding="40,20,0,8" height="104">
+      <HorizontalLayout height="24">
+        <Label text="设备序列号" width="80" textpading="0,5,5,5" />
+        <Label padding="0,3,20,3" name="LabelSn" width="200" />
+        <Container padding="8,3,0,3" width="80">
+          <Button name="BtnStartTest" enabled="false" width="80" text="开始测试" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" />
+          <Button name="BtnStopTest" visible="false" text="停止测试" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" />
+        </Container>
+      </HorizontalLayout>
+      <HorizontalLayout height="22" padding="0,5,0,0">
+        <Label text="设备类型" width="60" />
+        <Label text="" name="LabelDvcType" width="170" />
+        <Label text="IP地址" width="60" textpading="0,5,5,5" />
+        <Label text="" name="LabelIpAddr" width="170" />
+      </HorizontalLayout>
+      <HorizontalLayout height="22">
+        <Label text="软件版本" width="60" textpading="0,5,5,5" />
+        <Label width="170" name="LabelSoftVer" />
+        <Label text="MAC地址" width="60" textpading="0,5,5,5" />
+        <Label name="LabelMac" width="170" />
+      </HorizontalLayout>
+      <HorizontalLayout height="22">
+        <Label text="硬件版本" width="60" textpading="0,5,5,5" />
+        <Label name="LabelHardVer" width="170"></Label>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout padding="40,0,40">
+      <Container bkcolor="#55F3A2F4" name="CtnrTestDvcPic"></Container>
+      <HorizontalLayout height="30">
+		<Control />
+        <Container name="CntnrResult" pos="0,5,447,30" relativepos="50,0,0,0" float="true" itemalign="center"></Container>
+        <Control />
+      </HorizontalLayout>
+    </VerticalLayout>
+    <Container height="50" padding="40,10,40">
+      <VerticalLayout>
+        <HorizontalLayout height="50">
+          <Label text="当前状态" height="25" width="60" />
+          <!--
+          <RichEdit padding="0,1" mouse="false" name="ReditStateDis" enabled="false" readonly="true" />
+          -->
+          <Label name="LabelTestState" height="25" text="等待设备连接"></Label>
+          <HorizontalLayout name="LayoutResult" visible="false" padding="5" height="25" width="110">
+            <Button name="BtnNormal" width="44" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" padding="0,2,8,2" text="正常" />
+            <Button name="BtnAbnormal" width="44" padding="4,2,10,2" text="异常" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" />
+          </HorizontalLayout>
+		  <HorizontalLayout name="NextTestBtn" visible="false" padding="5" height="25" width="110">
+            <Button name="BtnNextTest" width="44" padding="0,2,8,2" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" text="下一项" />
+          </HorizontalLayout>
+		  <HorizontalLayout name="SysPrepareBtn" visible="false" padding="5" height="25" width="110">
+            <Button name="BtnSysPrepare" width="44" padding="0,2,8,2" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" text="测试准备" />
+          </HorizontalLayout>
+        </HorizontalLayout>
+      </VerticalLayout>
+    </Container>
+  </VerticalLayout>
+</Window>

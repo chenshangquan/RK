@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="400,180" roundcorner="5,5" caption="0,0,0,26" mininfo="400,180" maxinfo="400,180">
+  <Font name="微软雅黑" size="15" bold="false"></Font>
+  <Font name="微软雅黑" default="true" size="12" bold="false"></Font>
+  <VerticalLayout bordersize="1" name="NotifyDlg" bkcolor="#FFC0C0C0" borderround="5,5" inset="1,1,1,1" bordercolor="#88336666">
+    <HorizontalLayout height="26" bkimage="skinres/bkimage.png" bkcolor="#55123456">
+      <Label text="提示" font="0" padding="7" textcolor="#ffffffff" />
+    </HorizontalLayout>
+    <Container bkcolor="#FFDCDCDC" bordersize="0">
+      <Label float="true" mouse="false" align="center" name="LabelNotify" pos="40,41,360,65" />
+      <Button float="true" text="确定" name="BtnNotifyOk" pos="172,98,228,120" normalimage="SkinRes/btn_normal.png" hotimage="SkinRes/btn_highlight.png" pushedimage="SkinRes/btn_down.png" focusedimage="skinres/btn_focus.png" />
+    </Container>
+  </VerticalLayout>
+</Window>

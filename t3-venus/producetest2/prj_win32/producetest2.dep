@@ -1,0 +1,445 @@
+# Microsoft Developer Studio Generated Dependency File, included by producetest2.mak
+
+.\main.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\..\common\include\exceptioncatch.h"\
+	"..\include\System.h"\
+	"..\include\Tftp.h"\
+	
+
+.\resource.rc : \
+	".\skin\SkinRes\producetest2.ico"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\10-common\include\mcu\hduautotest.h"\
+	"..\..\..\10-common\include\mcu\mcuconst.h"\
+	"..\..\..\10-common\include\mcu\mpuautotest.h"\
+	"..\..\..\10-common\include\platform\osp.h"\
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvdef.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\system1\vccommon.h"\
+	"..\..\..\10-common\include\tp\cnconst.h"\
+	"..\..\..\10-common\include\tp\cnseventcomm.h"\
+	"..\..\..\10-common\include\tp\cnsstruct.h"\
+	"..\..\..\10-common\include\tp\cnstype.h"\
+	"..\..\..\10-common\include\tp\eventoutcnsdevice.h"\
+	"..\..\..\10-common\include\tp\mtmacro.h"\
+	"..\..\..\10-common\include\tp\tpcommonstruct.h"\
+	"..\..\..\10-common\include\tp\tpcommontype.h"\
+	"..\..\..\10-common\include\tp\tpeventcomm.h"\
+	"..\..\..\10-common\include\tp\tphdu2.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\..\..\10-common\include\tp\tpstruct.h"\
+	"..\..\..\10-common\include\tp\tpsys.h"\
+	"..\..\..\10-common\include\tp\tptype.h"\
+	"..\..\..\10-common\include\tp\xmldefine.h"\
+	"..\..\common\include\platform sdk\include\basetsd.h"\
+	"..\..\common\include\platform sdk\include\guiddef.h"\
+	"..\..\common\include\platform sdk\include\propidl.h"\
+	"..\..\common\include\platform sdk\include\reason.h"\
+	"..\..\common\include\platform sdk\include\shldisp.h"\
+	"..\..\common\include\platform sdk\include\shobjidl.h"\
+	"..\..\common\include\platform sdk\include\shtypes.h"\
+	"..\..\common\include\platform sdk\include\stralign.h"\
+	"..\..\common\include\platform sdk\include\tvout.h"\
+	"..\..\common\include\platform sdk\include\wspiapi.h"\
+	"..\duilib\include\appwindow.h"\
+	"..\duilib\include\uiactivex.h"\
+	"..\duilib\include\uibase.h"\
+	"..\duilib\include\uicombo.h"\
+	"..\duilib\include\uicommoncontrols.h"\
+	"..\duilib\include\uicontainer.h"\
+	"..\duilib\include\uicontrol.h"\
+	"..\duilib\include\uidelegate.h"\
+	"..\duilib\include\uidlgbuilder.h"\
+	"..\duilib\include\uilib.h"\
+	"..\duilib\include\uilist.h"\
+	"..\duilib\include\uimanager.h"\
+	"..\duilib\include\uimarkup.h"\
+	"..\duilib\include\uirender.h"\
+	"..\duilib\include\uirichedit.h"\
+	"..\include\ICommonOp.h"\
+	"..\include\InterfaceDef.h"\
+	"..\include\msgdef.h"\
+	"..\include\otherdef.h"\
+	"..\include\structdef.h"\
+	"..\include\Tftp.h"\
+	".\StdAfx.h"\
+	
+
+..\source\System.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\BoardFactory.h"\
+	"..\include\ControlFactory.h"\
+	"..\include\DeviceFactory.h"\
+	"..\include\DocManager.h"\
+	"..\include\LoadInfoMngr.h"\
+	"..\include\Logger.h"\
+	"..\include\LogicManager.h"\
+	"..\include\MacroMngr.h"\
+	"..\include\MsgManager.h"\
+	"..\include\MsgQueFactory.h"\
+	"..\include\OspAppManager.h"\
+	"..\include\OspInstance.h"\
+	"..\include\OspSessionMngr.h"\
+	"..\include\System.h"\
+	"..\include\TestCase.h"\
+	"..\include\TestCaseFactory.h"\
+	"..\include\Tftp.h"\
+	"..\include\Udp.h"\
+	"..\include\UdpSession.h"\
+	"..\include\UserDataManager.h"\
+	"..\include\WindowManager.h"\
+	
+
+..\source\ICommonOp.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\InterfaceDef.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\WndObserver.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Tftp.h"\
+	"..\include\WndObserver.h"\
+	
+
+..\source\DocManager.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\DocManager.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\Logger.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Logger.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\MacroMngr.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\MacroMngr.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\AbnormalLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\AbnormalLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\CaseCfgLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\CaseCfgLogic.h"\
+	"..\include\TestCase.h"\
+	"..\include\Tftp.h"\
+	
+
+.\ChooseDlgLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\ChooseDlgLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\LoadLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\LoadLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\MainLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\CComm.h"\
+	"..\include\LoadLogic.h"\
+	"..\include\MainLogic.h"\
+	"..\include\SuperTerminalLogic.h"\
+	"..\include\TestLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\NormalLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\NormalLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\NotifyDlgLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\NotifyDlgLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\PlayerLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\PlayerLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\SuperTerminalLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\CComm.h"\
+	"..\include\SuperTerminalLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\TestLogic.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\CComm.h"\
+	"..\include\SuperTerminalLogic.h"\
+	"..\include\TestCase.h"\
+	"..\include\TestLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\LogicManager.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\AbnormalLogic.h"\
+	"..\include\CaseCfgLogic.h"\
+	"..\include\CComm.h"\
+	"..\include\ChooseDlgLogic.h"\
+	"..\include\LoadLogic.h"\
+	"..\include\LogicManager.h"\
+	"..\include\MainLogic.h"\
+	"..\include\NormalLogic.h"\
+	"..\include\NotifyDlgLogic.h"\
+	"..\include\PlayerLogic.h"\
+	"..\include\SuperTerminalLogic.h"\
+	"..\include\TestLogic.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\MsgManager.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\MsgManager.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\UserDataManager.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Tftp.h"\
+	"..\include\UserDataManager.h"\
+	
+
+..\source\WindowManager.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\System.h"\
+	"..\include\Tftp.h"\
+	"..\include\WindowManager.h"\
+	"..\include\WndObserver.h"\
+	
+
+..\source\Board.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Board.h"\
+	"..\include\MsgQueMngr.h"\
+	"..\include\TestCase.h"\
+	"..\include\TestCaseContainer.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\Device.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Device.h"\
+	"..\include\TestCase.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\MsgQueMngr.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\MsgQueFactory.h"\
+	"..\include\MsgQueMngr.h"\
+	"..\include\TestCase.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\TestCase.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\TestCase.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\TestCaseContainer.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\TestCaseContainer.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\BoardFactory.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Board.h"\
+	"..\include\BoardFactory.h"\
+	"..\include\TestCase.h"\
+	"..\include\TestCaseContainer.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\ControlFactory.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\ControlFactory.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\DeviceFactory.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Device.h"\
+	"..\include\DeviceFactory.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\MsgQueFactory.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\MsgQueFactory.h"\
+	"..\include\MsgQueMngr.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\TestCaseFactory.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\TestCase.h"\
+	"..\include\TestCaseFactory.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\OspAppManager.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\OspAppManager.h"\
+	"..\include\OspInstance.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\OspInstance.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\OspInstance.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\OspSession.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\OspSession.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\OspSessionMngr.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\OspSession.h"\
+	"..\include\OspSessionMngr.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\LoadInfoMngr.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\LoadInfoMngr.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\Udp.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Tftp.h"\
+	"..\include\Udp.h"\
+	
+
+..\source\UdpSession.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Tftp.h"\
+	"..\include\Udp.h"\
+	"..\include\UdpSession.h"\
+	
+
+..\source\CComm.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\CComm.h"\
+	"..\include\Tftp.h"\
+	
+
+..\source\Tftp.cpp : \
+	"..\..\..\10-common\include\system1\eventid.h"\
+	"..\..\..\10-common\include\system1\kdvtype.h"\
+	"..\..\..\10-common\include\tp\tpmsg.h"\
+	"..\include\Tftp.h"\
+	

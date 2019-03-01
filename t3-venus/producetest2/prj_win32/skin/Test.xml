@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="530,550" caption="0,0,0,26">
+  <HorizontalLayout visible="true" name="PageTestMode">
+    <ChildWindow file="TestModeLeft.xml" />
+    <ChildWindow file="TestModeRight.xml" />
+  </HorizontalLayout>
+</Window>

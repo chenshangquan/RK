@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<index>
+  <producetest file="main.xml" logic="mainlogic|loadlogic|testlogic|normallogic" />
+  <mediaplayer file="TestModeVidPlayer.xml" parent="producetest" logic="playerlogic" />
+  <abnormalwindow file="TestModeAbnormalDlg.xml" parent="producetest" logic="abnormallogic" />
+  <caseconfigwindow file="TestModeCfgDlg.xml" parent="producetest" logic="casecfglogic" />
+  <notifydialog file="NotifyDialog.xml" parent="producetest" logic="notifydlglogic" />
+  <choosedialog file="choosedlg.xml" parent="producetest" logic="choosedlglogic" />
+  <tip file="tip.xml" />
+  <superterminal file="SuperTerminal.xml" logic="superterminallogic" parent="producetest" />
+</index>

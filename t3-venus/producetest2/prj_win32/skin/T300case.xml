@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<case>
+
+  <T300case1 type="media" Name="MAIN IN-1接口测试--编码器1" Description="MAIN IN-1视频源转HDMI接入1台PS3,MAIN OUT-1转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn1_HDMI_MAINOut1_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MAIN IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn1_HDMI_MAINOut1_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case1>
+
+  <T300case2 type="media" Name="MAIN IN-1接口测试--编码器2" Description="MAIN IN-1视频源转HDMI接入1台PS3,MAIN OUT-1转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn1_HDMI_MAINOut1_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MAIN IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn1_HDMI_MAINOut1_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case2>
+
+  <T300case3 type="media" Name="SUB IN-1接口测试--编码器1" Description="SUB IN-1视频源转HDMI接入1台PS3,MAIN OUT-1转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_HDMI_MAINOut1_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_HDMI_MAINOut1_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case3>
+
+  <T300case4 type="media" Name="SUB IN-1接口测试--编码器2" Description="SUB IN-1视频源转HDMI接入1台PS3,MAIN OUT-1转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_HDMI_MAINOut1_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_HDMI_MAINOut1_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case4>
+
+  <T300case5 type="media" Name="MAIN IN-2接口测试--编码器1" Description="MAIN IN-2视频源转HDMI接入1台PS3,MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn2_HDMI_MAINOut2_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MAIN IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn2_HDMI_MAINOut2_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case5>
+
+  <T300case6 type="media" Name="MAIN IN-2接口测试--编码器2" Description="MAIN IN-2视频源转HDMI接入1台PS3,MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn2_HDMI_MAINOut2_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MAIN IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn2_HDMI_MAINOut2_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case6>
+
+  <T300case7 type="media" Name="SUB IN-2接口测试--编码器1" Description="SUB IN-2视频源转HDMI接入1台PS3,MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_HDMI_MAINOut2_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_HDMI_MAINOut2_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case7>
+
+  <T300case8 type="media" Name="SUB IN-2接口测试--编码器2" Description="SUB IN-2视频源转HDMI接入1台PS3,MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_HDMI_MAINOut2_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_HDMI_MAINOut2_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case8>
+
+  <T300case9 type="media" Name="MAIN IN-3接口测试--编码器1" Description="MAIN IN-3视频源转HDMI接入1台PS3,MAIN OUT-3转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn3_HDMI_MAINOut3_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MAIN IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn3_HDMI_MAINOut3_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case9>
+
+  <T300case10 type="media" Name="MAIN IN-3接口测试--编码器2" Description="MAIN IN-3视频源转HDMI接入1台PS3,MAIN OUT-3转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn3_HDMI_MAINOut3_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MAIN IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidMAINIn3_HDMI_MAINOut3_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case10>
+
+  <T300case11 type="media" Name="SUB IN-3接口测试--编码器1" Description="SUB IN-3视频源转HDMI接入1台PS3,MAIN OUT-3转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_HDMI_MAINOut3_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_HDMI_MAINOut3_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case11>
+
+  <T300case12 type="media" Name="SUB IN-3接口测试--编码器2" Description="SUB IN-3视频源转HDMI接入1台PS3,MAIN OUT-3转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_HDMI_MAINOut3_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_HDMI_MAINOut3_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case12>
+
+  <T300case13 type="media" Name="SUB IN-1接口测试--编码器1  (通过VGA接入PC)" Description="SUB IN-1视频源转VGA接入1台PC，分辨率为SXGA（1280x1024)@60Hz，MAIN OUT-1转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_VGA_MAINOut1_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_VGA_MAINOut1_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case13>
+
+  <T300case14 type="media" Name="SUB IN-1接口测试--编码器2  (通过VGA接入PC)" Description="SUB IN-1视频源转VGA接入1台PC，分辨率为SXGA（1280x1024)@60Hz，MAIN OUT-1转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_VGA_MAINOut1_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn1_VGA_MAINOut1_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case14>
+
+  <T300case15 type="media" Name="SUB IN-2接口测试--编码器1   (通过VGA接入PC)" Description="SUB IN-2视频源转VGA接入1台PC，分辨率为SXGA（1280x1024)@60Hz，MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_VGA_MAINOut2_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_VGA_MAINOut2_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case15>
+
+  <T300case16 type="media" Name="SUB IN-2接口测试--编码器2   (通过VGA接入PC)" Description="SUB IN-2视频源转VGA接入1台PC，分辨率为SXGA（1280x1024)@60Hz，MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_VGA_MAINOut2_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn2_VGA_MAINOut2_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case16>
+
+  <T300case17 type="media" Name="SUB IN-3接口测试--编码器1   (通过VGA接入PC)" Description="SUB IN-3视频源转VGA接入1台PC，分辨率为SXGA（1280x1024)@60Hz，MAIN OUT-3转HDMI接1台HDMI高清电视机输出视频(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_VGA_MAINOut3_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_VGA_MAINOut3_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case17>
+
+  <T300case18 type="media" Name="SUB IN-3接口测试--编码器2    (通过VGA接入PC)" Description="SUB IN-3视频源转VGA接入1台PC，分辨率为SXGA（1280x1024)@60Hz，MAIN OUT-3转HDMI接1台HDMI高清电视机输出视频(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_VGA_MAINOut3_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SUB IN-3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidSUBIn3_VGA_MAINOut3_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case18>
+
+  <T300case19 type="media" Name="AUX IN 1接口测试  (通过HDMI接入PS3)" Description="AUX IN 1音视频源转HDMI接入1台PS3,AUX OUT-1转HDMI接1台HDMI高清电视机输出音视频,MAIN OUT 2输出接音箱" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn1_HDMI_AUXOut1" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn1_HDMI_AUXOut1" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case19>
+
+  <T300case20 type="media" Name="AUX IN 2接口测试  (通过HDMI接入PS3)" Description="AUX IN 2音视频源转HDMI接入1台PS3,AUX OUT-1转HDMI接1台HDMI高清电视机输出音视频,MAIN OUT 2输出接音箱" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn2_HDMI_AUXOut1" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn2_HDMI_AUXOut1" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case20>
+
+  <T300case21 type="media" Name="AUX IN 3接口测试 (通过HDMI接入PS3) " Description="AUX IN 3音视频源转HDMI接入1台PS3,AUX OUT-1转HDMI接1台HDMI高清电视机输出音视频,MAIN OUT 2输出接音箱" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn3_HDMI_AUXOut2" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn3_HDMI_AUXOut2" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case21>
+
+  <T300case22 type="media" Name="AUX IN 4接口测试  (通过HDMI接入PS3)" Description="AUX IN 4视频源转HDMI接入1台PS3,AUX OUT-2转HDMI接1台HDMI高清电视机输出视频" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn4_HDMI_AUXOut2" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn4_HDMI_AUXOut2" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case22>
+
+  <T300case23 type="media" Name="AUX IN 4接口测试--编码器1  (通过HDMI接入PS3)" Description="AUX IN 4视频源转HDMI接入1台PS3,MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频；(编码器1)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidAuxIn4_HDMI_MAINOut2_Priom" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidAuxIn4_HDMI_MAINOut2_Priom" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case23>
+
+  <T300case24 type="media" Name="AUX IN 4接口测试--编码器2  (通过HDMI接入PS3)" Description="AUX IN 4视频源转HDMI接入1台PS3,MAIN OUT-2转HDMI接1台HDMI高清电视机输出视频；(编码器2)" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidAuxIn4_HDMI_MAINOut2_Mini" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emVidAuxIn4_HDMI_MAINOut2_Mini" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case24>
+
+  <T300case25 type="media" Name="AUX IN 4接口测试" Description="AUX IN 4视频源转HDMI接入1台PS3,AUX OUT-2转VGA接1台PC显示器；" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn4_HDMI_AUXOut2_VGA" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 4接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn4_HDMI_AUXOut2_VGA" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case25>
+  
+  <T300case26 type="media" Name="AUX IN 1接口测试  (通过VGA接入PC)" Description="AUX IN 1音视频源转VGA接入1台PC,分辨率为SXGA（1280x1024)@60Hz，AUX OUT-1转VGA接1台PC，分辨率为SXGA（1280x1024)@60Hz" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn1_VGA_AUXOut1_VGA" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 1接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn1_VGA_AUXOut1_VGA" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case26>
+
+  <T300case27 type="media" Name="AUX IN 2接口测试  (通过VGA接入PC)" Description="AUX IN 2音视频源转VGA接入1台PC,分辨率为SXGA（1280x1024)@60Hz，AUX OUT-1转VGA接1台PC，分辨率为SXGA（1280x1024)@60Hz" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn2_VGA_AUXOut1_VGA" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 2接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn2_VGA_AUXOut1_VGA" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case27>
+
+  <T300case28 type="media" Name="AUX IN 3接口测试  (通过VGA接入PC)" Description="AUX IN 3音视频源转VGA接入1台PC,分辨率为SXGA（1280x1024)@60Hz，AUX OUT-2转VGA接1台PC，分辨率为SXGA（1280x1024)@60Hz" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn3_VGA_AUXOut2_VGA" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 3接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualAuxIn3_VGA_AUXOut2_VGA" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case28>
+
+  <T300case29 type="media" Name="SDI IN接口测试" Description="SDI IN视频源接入1台摄像机,输出AUX OUT-2转HDMI接1台HDMI高清电视机输出视频" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始SDI IN接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualSDIIn_HDMI_AUXOut2" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止SDI IN接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emDualSDIIn_HDMI_AUXOut2" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case29>
+
+  <T300case30 type="media" Name="MIC 1采集音频测试" Description="音频输入:MIC 1接入1个数字麦克风;音频输出:接入MAIN OUT 1输出接音箱;输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MIC 1采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioMIC1InMAIN1Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MIC 1采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioMIC1InMAIN1Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case30>
+
+  <T300case31 type="media" Name="MIC 2采集音频测试" Description="音频输入:MIC 2接入1个数字麦克风;音频输出:接入MAIN OUT 2输出接音箱;输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MIC 2采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioMIC2InMAIN2Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MIC 2采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioMIC2InMAIN2Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case31>
+
+  <T300case32 type="media" Name="MIC 3采集音频测试" Description="音频输入:MIC 3接入1个数字麦克风;音频输出:接入MAIN OUT 3输出接音箱;输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MIC 3采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioMIC3InMAIN3Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止MIC 3采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioMIC3InMAIN3Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case32>
+
+  <T300case33 type="media" Name="CANNON 1采集音频测试" Description="音频输入：CANNON 1接入1个卡农麦克风；音频输出：MAIN OUT 1输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 1采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON1InMAIN1Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 1采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON1InMAIN1Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case33>
+
+  <T300case34 type="media" Name="CANNON 2采集音频测试" Description="音频输入:CANNON 2接入1个卡农麦克风;音频输出：MAIN OUT 1输出接音箱;输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 2采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON2InMAIN1Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 2采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON2InMAIN1Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case34>
+
+  <T300case35 type="media" Name="CANNON 3采集音频测试" Description="音频输入：CANNON 3接入1个卡农麦克风；音频输出：MAIN OUT 1输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 3采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON3InMAIN1Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 3采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON3InMAIN1Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case35>
+
+  <T300case36 type="media" Name="CANNON 4采集音频测试" Description="音频输入：CANNON 4接入1个卡农麦克风；音频输出：MAIN OUT 2输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 4采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON4InMAIN2Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 4采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON4InMAIN2Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case36>
+
+  <T300case37 type="media" Name="CANNON 5采集音频测试" Description="音频输入：CANNON 5接入1个卡农麦克风；音频输出：MAIN OUT 2输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 5采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON5InMAIN2Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 5采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON5InMAIN2Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case37>
+
+  <T300case38 type="media" Name="CANNON 6采集音频测试" Description="音频输入：CANNON 6接入1个卡农麦克风；音频输出：MAIN OUT 2输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 6采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON6InMAIN2Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 6采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON6InMAIN2Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case38>
+
+  <T300case39 type="media" Name="CANNON 7采集音频测试" Description="音频输入：CANNON 7接入1个卡农麦克风；音频输出：MAIN OUT 3输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 7采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON7InMAIN3Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 7采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON7InMAIN3Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case39>
+
+  <T300case40 type="media" Name="CANNON 8采集音频测试" Description="音频输入：CANNON 8接入1个卡农麦克风；音频输出：MAIN OUT 3输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 8采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON8InMAIN3Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 8采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON8InMAIN3Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case40>
+
+  <T300case41 type="media" Name="CANNON 9采集音频测试" Description="音频输入：CANNON 9接入1个卡农麦克风；音频输出：MAIN OUT 3输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 9采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON9InMAIN3Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 9采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON9InMAIN3Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case41>
+
+  <T300case42 type="media" Name="CANNON 10采集音频测试" Description="音频输入：CANNON 10接入1个卡农麦克风；音频输出：MAIN OUT 2输出接音箱 输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始CANNON 10采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON10InMAIN2Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止CANNON 10采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioCANNON10InMAIN2Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case42>
+
+  <T300case43 type="media" Name="AUX IN 1采集音频测试" Description="音频输入:AUX IN 1接入1个接TRS接口;音频输出:MAIN OUT 2输出接音箱;输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 1采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioAUX1InAUX1Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 1采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioAUX1InAUX1Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case43>
+
+  <T300case44 type="media" Name="AUX IN 2采集音频测试" Description="音频输入:AUX IN 2接入1个接TRS接口;音频输出:MAIN OUT 2输出接音箱;输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 2采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioAUX2InAUX1Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 2采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioAUX2InAUX1Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case44>
+
+  <T300case45 type="media" Name="AUX IN 3采集音频测试" Description="音频输入:AUX IN 3接入1个接TRS接口;音频输出:MAIN OUT 2输出接音箱;输入输出接口全开" Path="C:\">
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始AUX IN 3采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioAUX3InAUX1Out" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止AUX IN 3采集音频测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioAUX3InAUX1Out" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case45>
+
+  <T300case46 type="cmd" Name="OUT1 CANNON1接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON1接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON1接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon1In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON1接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case46>
+
+  <T300case47 type="cmd" Name="OUT1 CANNON2接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON2接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON2接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon2In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON2接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case47>
+
+  <T300case48 type="cmd" Name="OUT1 CANNON3接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON3接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON3接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon3In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON3接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case48>
+
+  <T300case49 type="cmd" Name="OUT1 CANNON4接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON4接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON4接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon4In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON4接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case49>
+
+  <T300case50 type="cmd" Name="OUT1 CANNON5接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON5接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON5接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon5In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON5接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case50>
+
+  <T300case51 type="cmd" Name="OUT1 CANNON6接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON6接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON6接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon6In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON6接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case51>
+
+  <T300case52 type="cmd" Name="OUT1 CANNON7接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON7接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON7接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon7In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON7接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case52>
+
+  <T300case53 type="cmd" Name="OUT1 CANNON8接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON8接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON8接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon8In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON8接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case53>
+
+  <T300case54 type="cmd" Name="OUT1 CANNON9接口测试" Description="T300通过MAIN OUT1接口播放白噪声，CANNON9接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON9接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon9In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON9接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case54>
+
+  <T300case55 type="cmd" Name="OUT1 CANNON10接口测试" Retestable="false" Description="T300通过MAIN OUT1接口播放白噪声，CANNON10接口采集播放声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始MAIN OUT1 CANNON10接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioInMain1OutCannon10In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回MAIN OUT1 CANNON10接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case55>
+
+  <T300case56 type="cmd" Name="左OUT1 CANNON1接口" Description="T300通过MAIN OUT 1左声道接口播放白噪声，同时采集CANNON 1接口的声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始左MAIN OUT1 CANNON1接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioOutMainL1OutCannon1In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回左MAIN OUT1 CANNON1接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case56>
+
+  <T300case57 type="cmd" Name="右OUT1 CANNON1接口" Description="T300通过MAIN OUT 1右声道接口播放白噪声，同时采集CANNON 1接口的声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始右MAIN OUT1 CANNON1接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioOutMainR1OutCannon1In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回右MAIN OUT1 CANNON1接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case57>
+
+  <T300case58 type="cmd" Name="左OUT2 CANNON1接口" Description="T300通过MAIN OUT 2左声道接口播放白噪声，同时采集CANNON 1接口的声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始左MAIN OUT2 CANNON1接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioOutMainL2OutCannon1In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回左MAIN OUT2 CANNON1接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case58>
+
+  <T300case59 type="cmd" Name="右OUT2 CANNON1接口" Description="T300通过MAIN OUT 2右声道接口播放白噪声，同时采集CANNON 1接口的声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始右MAIN OUT2 CANNON1接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioOutMainR2OutCannon1In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回右MAIN OUT2 CANNON1接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case59>
+
+  <T300case60 type="cmd" Name="左OUT3 CANNON1接口" Description="T300通过MAIN OUT 3左声道接口播放白噪声，同时采集CANNON 1接口的声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始左MAIN OUT3 CANNON1接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioOutMainL3OutCannon1In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回左MAIN OUT3 CANNON1接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case60>
+
+  <T300case61 type="cmd" Name="右OUT3 CANNON1接口" Retestable="false" Description="T300通过MAIN OUT 3右声道接口播放白噪声，同时采集CANNON 1接口的声音，测量并记录当前音量值" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始右MAIN OUT3 CANNON1接口输出音量值测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestAudioOutMainR3OutCannon1In" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回右MAIN OUT3 CANNON1接口返回音量值大小">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case61>
+
+  <T300case62 type="cmd" Name="USB接口测试" Description="USB1、USB2接口测试 自动mount USB,分别对两个USB写文件，然后读文件并判断读文件与写文件是否存在差异" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始USB接口测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestUSB1Func" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回USB接口测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case62>
+
+  <T300case63 type="cmd" Name="RTC测试" Description="通过设置RTC时间，设置完毕后读取RTC的实时时间，判断读取的时间与设置的时间是否存在时间差" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始RTC测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestRTCFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回RTC测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case63>
+
+  <T300case64 type="media" Name="指示灯测试" Description="前面板依次点灯，其中PWR灯常亮，RUN和ALARM灯每次点灯时间间隔5秒亮起，ALARM灯为红灯，其他均为绿灯" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始指示灯测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestLightFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止指示灯测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestLightFunc" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case64>
+
+  <T300case65 type="cmd" Name="网口LAN1功能测试" Description="网口Ping包测试，LAN1口依次Ping 64B、65000B 各10个包" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始LAN1网口功能测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestLAN1Func" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回LAN1网口功能测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case65>
+
+  <T300case66 type="cmd" Name="网口LAN2功能测试" Description="网口Ping包测试，由LAN1口切换到LAN2口，依次Ping 64B、65000B 各10个包" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始LAN2网口功能测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestLAN2Func" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回LAN2网口功能测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case66>
+
+  <T300case67 type="cmd" Name="串口RS 485线缆硬环回测试1" Description="用3根RS 485的RJ线缆将CAM300与CAMPTZ、DISP 1与DISP 2、DISP 3与DOCCam硬环回(需配置好环境，重启测试生效)" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始RS 485线的硬环回测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emT300ERS485Loopback_FirstFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回RS 485线的硬环回测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case67>
+
+  <T300case68 type="cmd" Name="串口RS 485线缆硬环回测试2" Description="用2根RS 485的RJ线缆将DOCCam与COM 1、COM 2与COM 3硬环回(需配置好环境，重启测试生效)" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始RS 485线的硬环回测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emT300ERS485Loopback_SecondFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回RS 485线的硬环回测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case68>
+
+  <T300case69 type="cmd" Name="串口RS 422线缆硬环回测试1" Description="用3根RS 422的RJ线缆将CAM300与CAMPTZ、DISP 1与DISP 2、DISP 3与DOCCam硬环回" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始RS 422线的硬环回测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emT300ERS422Loopback_FirstFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回RS 422线的硬环回测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case69>
+
+  <T300case70 type="cmd" Name="串口RS 422线缆硬环回测试2" Description="用2根RS 422的RJ线缆将DOCCam与COM 1、COM 2与COM 3硬环回" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始RS 422线的硬环回测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emT300ERS422Loopback_SecondFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回RS 422线的硬环回测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case70>
+
+  <T300case71 type="cmd" Name="串口RS 232线缆硬环回测试" Description="用5根RS 232的RJ线缆将CONSOLE与CAM300、CAMPTZ与DISP 1、DISP 2与DISP 3、DOCCam与COM 1、COM 2与COM 3硬环回" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始RS 232线的硬环回测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emT300ERS232LoopbackFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回RS 232线的硬环回测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case71>
+
+  <T300case72 type="media" Name="红外测试" Description="通过遥控器发送红外信号,依次控制IR OUT 1～8接口开关量，判断LED灯1～8是否随着开、关变化而变化" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始红外测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestInfraredSendFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+    </PreMsg>
+    <EndMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求停止红外测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestInfraredSendFunc" />
+          <Item type="u32" Value="FALSE" />
+        </MsgBody>
+      </Msg>
+    </EndMsg>
+  </T300case72>
+
+  <T300case73 type="cmd" Name="ALM OUT 1～8接口开关测试" Description="依次将ALM IN 1～8与ALM OUT 1～8用线环回，让终端给ALM IN 1～8依次输入开关量（开/关），判断ALM OUT 1～8分别接收到的是否与输入一致" Path="C:\" >
+    <PreMsg>
+      <Msg type="Out" MsgId="ev_CNPRODUCETEST_CMD" Description="ev_CNPRODUCETEST_CMD 请求开始ALM OUT 1～8接口开关测试">
+        <MsgBody>
+          <Item type="u16" Value="VERSION_NUM" />
+          <Item type="u32" Value="emTestALMLoopBackFunc" />
+          <Item type="u32" Value="TRUE" />
+        </MsgBody>
+      </Msg>
+      <Msg type="In" MsgId="ev_CNPRODUCETESTRESULT_NTY" Description="ev_CNPRODUCETESTRESULT_NTY 返回ALM OUT 1～8接口开关测试结果">
+        <MsgBody></MsgBody>
+      </Msg>
+    </PreMsg>
+  </T300case73>
+
+</case> 
